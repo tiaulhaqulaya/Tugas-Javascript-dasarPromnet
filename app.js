@@ -38,7 +38,7 @@ console.log("Skrip app.js berhasil terhubung");
 // ---- BAGIAN 2A: VARIABEL IDENTITAS KEDAI KOPI ----
 // TODO 2A:
 // 1. Buat konstanta "NAMA_KEDAI" bertipe string (misal: "Kopi PSTI Kampus").
-const NAMA_KEDAI = "DuaArah Coffe";
+const NAMA_KEDAI = "Kopi PSTI Kampus";
 // 2. Buat variabel "namaKasir" (misal: "Kak Eko") dan "shiftKerja" menggunakan "let".
 let namaKasir = "Kak Eko";
 let shiftKerja = "Pagi";
@@ -63,14 +63,14 @@ console.log("Kasir   : " + namaKasir);
 // ---- BAGIAN 2B: INPUT INTERAKTIF & PENGANDAIAN DASAR ----
 // TODO 2C:
 // 1. Tampilkan pop-up salam pembuka selamat datang menggunakan alert().
-alert("Selamat Datang di DuaArah Coffe semoga harimu menyenangkan!");
+alert("Selamat Datang di Kopi PSTI Kampus semoga harimu menyenangkan!");
 // 2. Tampilkan dialog prompt() untuk meminta nama pengunjung, simpan hasilnya ke variabel "namaPelanggan".
 let namaPelanggan = prompt ("Halo!! Masukkan namamu untuk melakukan pemesanan");
 // 3. Gunakan percabangan "if - else":
 //    - JIKA namaPelanggan ada isinya: tampilkan alert sapaan dan log ke console.
 //    - JIKA namaPelanggan kosong / klik Cancel: beri nilai default "Pelanggan Setia" dan tampilkan alert pemberitahuan.
 if (namaPelanggan) {
-    alert("Halo, " + namaPelanggan + "!Selamat Datang di DuaArah Coffe.");
+    alert("Halo, " + namaPelanggan + "!Selamat Datang di Kopi PSTI Kampus");
     console.log("Member Aktif: " + namaPelanggan);
 } else {
     alert("Kamu tidak memasukan nama. Kamu akan dipanggil Pelanggan Setia");
@@ -134,10 +134,10 @@ if (totalPoin >= 100){
 console.log ("tierMember : " + tierMember + "___" + benefit);
 // 4. Tampilkan ringkasan hasil member (nama, total poin, tier, benefit) via dialog alert().
 alert (
-    "nama" + namaPelanggan + ":\n" + 
-    "total poin" + totalPoin + ":\n" + 
-    "tier" + tierMember + ":\n" + 
-    "benefit" + benefit + ":\n"
+    "Nama: " + namaPelanggan + "\n" + 
+    "Total Poin: " + totalPoin + "\n" + 
+    "Tier: " + tierMember + "\n" + 
+    "Benefit: " + benefit + "\n"
 );
 
 
@@ -198,12 +198,11 @@ console.log("Tiermember  : " + tierMemberC);
 // TODO 6A:
 // Buat variabel Array bernama "menuRekomendasi" yang berisi minimal 5 nama menu kopi/makanan.
 let menuRekomendasi = [     
-    "Milo Dinosaurus", 
-    "Lychee Tea",     
-    "Butterscotch Sea Salt Latte",     
-    "Rice Chicken Nanban",     
-    "Mix Platter",
-    "Nasi Kulit Cabe Garam"
+    "Caramel Macchiato", 
+    "Kopi Susu Gula Aren",     
+    "Croissant Butter Keju",     
+    "Matcha Cream Latte",     
+    "Cinnamon Roll Hangat"
 ]; 
 
 
